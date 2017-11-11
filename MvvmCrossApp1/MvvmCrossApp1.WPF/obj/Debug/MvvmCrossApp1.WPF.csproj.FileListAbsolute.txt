@@ -1,0 +1,1 @@
+E:\Exercise\MvvmCrossApp1\MvvmCrossApp1\MvvmCrossApp1.WPF\obj\Debug\MvvmCrossApp1.WPF.csprojResolveAssemblyReference.cache
