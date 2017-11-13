@@ -41,6 +41,12 @@
     <ApplicationIcon>MvvmCross.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Forms9Patch, Version=0.9.11.10611, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Forms9Patch.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsGestures, Version=1.0.6508.10610, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\FormsGestures.dll</HintPath>
+    </Reference>
     <Reference Include="MvvmCross.Binding, Version=5.4.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MvvmCross.Binding.5.4.2\lib\net45\MvvmCross.Binding.dll</HintPath>
     </Reference>
@@ -64,6 +70,21 @@
     </Reference>
     <Reference Include="MvvmCross.Wpf, Version=5.4.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MvvmCross.Core.5.4.2\lib\net45\MvvmCross.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericalMethods, Version=1.0.6508.10609, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\NumericalMethods.dll</HintPath>
+    </Reference>
+    <Reference Include="PCL.Utils, Version=1.0.6508.10610, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\PCL.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PCLStorage.1.0.2\lib\net45\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PCLStorage.1.0.2\lib\net45\PCLStorage.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

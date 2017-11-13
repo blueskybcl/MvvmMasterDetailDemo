@@ -42,6 +42,18 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Forms9Patch, Version=0.9.11.10611, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\MonoAndroid10\Forms9Patch.dll</HintPath>
+    </Reference>
+    <Reference Include="Forms9Patch.Droid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\MonoAndroid10\Forms9Patch.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsGestures, Version=1.0.6508.10610, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\MonoAndroid10\FormsGestures.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsGestures.Droid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\MonoAndroid10\FormsGestures.Droid.dll</HintPath>
+    </Reference>
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.4.0.282\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
     </Reference>
@@ -84,6 +96,21 @@
     </Reference>
     <Reference Include="MvvmCross.Platform.Droid, Version=5.4.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MvvmCross.Platform.5.4.2\lib\MonoAndroid\MvvmCross.Platform.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericalMethods, Version=1.0.6508.10609, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\MonoAndroid10\NumericalMethods.dll</HintPath>
+    </Reference>
+    <Reference Include="PCL.Utils, Version=1.0.6508.10610, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Forms9Patch.0.10.3.5\lib\MonoAndroid10\PCL.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PCLStorage.1.0.2\lib\monoandroid\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PCLStorage.1.0.2\lib\monoandroid\PCLStorage.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -187,6 +214,7 @@
     <AndroidResource Include="Resources\values-v21\styles.xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Resources\AboutResources.txt" />
